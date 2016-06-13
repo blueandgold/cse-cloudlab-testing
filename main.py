@@ -2,7 +2,7 @@ import webapp2
 
 class HelloWebapp2(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello, Erie!\n\n')
+        self.response.write('Hello, Bert!\n\n')
 
 app = webapp2.WSGIApplication([
     ('/', HelloWebapp2),
